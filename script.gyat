@@ -1,0 +1,15 @@
+let ar={red,magenta,blue,cyan,yellow,gray,black,green};
+let i=irandom(1,8);
+let i1=irandom(1,8);
+let ir=i;
+loop(2000,400){
+    Crange2(0,0,32,16).color=ar[i]; 
+    Crange2(0,17,32,32).color=ar[i1];
+    while(i==ir){
+        let i=irandom(1,8);
+    }
+    let i1=irandom(1,8);
+    let ir=i;
+}
+
+//Can be changed however wanted.
